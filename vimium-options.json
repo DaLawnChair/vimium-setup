@@ -1,0 +1,52 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nmap s scrollPageUp\n# Easy way to escape from Insert mode\nmapkey ` <c-[>\n\n# Add binding to get out of insert mode, like when \n# editing text on browser\nmapkey <A-[> enterInsertMode\nmapkey <A-]> <c-[>",
+  "scrollStepSize": 80,
+  "grabBackFocus": true,
+  "settingsVersion": "2.2.1",
+  "exclusionRules": [
+    {
+      "passKeys": "i,v,x,g,h,j,k,l,w,r,v,vi,d,o",
+      "pattern": "https?://lobot.caslab.queensu.ca/*"
+    },
+    {
+      "passKeys": "i,v,x,g,h,j,k,l,w,r,v,vi,d,oi,v,x,g,h,j,k,l,w,r,v,vi,d,o",
+      "pattern": "https://outlook.office.com/*"
+    },
+    {
+      "passKeys": "i,v,x,g,h,j,k,l,w,r,v,vi,d,o",
+      "pattern": "https://outlook.live.com/*"
+    },
+    {
+      "passKeys": "i,v,x,g,h,j,k,l,w,r,v,vi,d,o",
+      "pattern": "https://mail.google.com/mail/*"
+    },
+    {
+      "passKeys": "i,v,x,g,b,h,j,k,l,w,r,v,vi,d,o",
+      "pattern": "https://app.roboflow.com/*"
+    },
+    {
+      "passKeys": "All",
+      "pattern": "https://docs.google.com/document/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://www.youtube.com/playables/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://www.nytimes.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://www.typing.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://monkeytype.com/*"
+    }
+  ]
+}
